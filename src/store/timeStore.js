@@ -11,7 +11,7 @@ import {
 } from '../utils/timeline.js'
 
 // The time store is the source of truth for both playback controls and
-// session-captured snapshot history. Satellites and weather do not depend on
+// session-captured snapshot history. Satellites do not depend on
 // these snapshots, but aircraft and ships do.
 const RETAIN_MS = 3 * DAY_MS
 

@@ -131,7 +131,7 @@ export default function Timeline() {
 
       <div className="flex items-center justify-between gap-4 text-[11px] text-slate-500">
         <span>
-          Satellites and weather have full replay coverage. Aircraft and ships
+          Satellites have full replay coverage. Aircraft and ships
           only rewind captured session snapshots.
         </span>
         <span className="text-right">

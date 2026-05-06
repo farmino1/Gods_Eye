@@ -149,7 +149,7 @@ remains bounded by actual observed coverage.
 
 The UI intentionally communicates:
 
-- satellites and weather have full replay coverage
+- satellites have full replay coverage
 - aircraft and ships rewind only what the session captured
 - cameras and prediction markets are live present-time only
 
