@@ -48,7 +48,7 @@ function App() {
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-white">
               {activePage === 'globe'
-                ? 'Air & Sea'
+                ? "God's Eye"
                 : 'Prediction Markets'}
             </h1>
           </div>
