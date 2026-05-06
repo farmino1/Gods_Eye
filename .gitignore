@@ -25,10 +25,7 @@ coverage/
 .vscode/
 .idea/
 
-# Cesium and large vendor assets
-public/cesium/Assets/
-public/cesium/ThirdParty/
-public/cesium/Workers/
+# Large vendor assets
 dist/assets/
 
 # Large data files (move to data repo or use Git LFS)
