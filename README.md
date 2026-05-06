@@ -14,13 +14,9 @@ All in one place.
 
 ![Satellites Demo](docs/media/satellite_demo.gif)
 
----
-
 ## ✈️ Aircraft + GPS Jamming View
 
 ![Aircraft + GPS Demo](docs/media/gps_aircraft_demo.gif)
-
----
 
 ## 📷 Camera System
 
@@ -35,17 +31,13 @@ All in one place.
 ```bash
 git clone https://github.com/farmino1/Gods_Eye.git
 cd Gods_Eye
-````
-
----
+```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
 ```
-
----
 
 ### 3. Enable large data files (IMPORTANT)
 
@@ -56,8 +48,6 @@ git lfs install
 git lfs pull
 ```
 
----
-
 ### 4. Setup environment
 
 ```bash
@@ -65,8 +55,6 @@ cp .env.example .env.local
 ```
 
 Edit `.env.local` and add any API keys you want to use.
-
----
 
 ### 5. Run the app
 
@@ -90,9 +78,9 @@ http://127.0.0.1:5173
 git lfs pull
 ```
 
----
-
 ### ❌ Cesium not loading
+
+Make sure this is set before initializing Cesium:
 
 ```js
 window.CESIUM_BASE_URL = "/cesium/";
@@ -141,7 +129,7 @@ src/        → frontend app
 server/     → backend proxy
 public/     → Cesium assets
 cameras/    → large camera dataset (LFS)
-docs/media/       → documentation + demos
+docs/media/ → images, GIF demos, assets
 test/       → unit tests
 ```
 
@@ -150,6 +138,8 @@ test/       → unit tests
 # 🔐 Environment Variables
 
 Copy `.env.example` → `.env.local`
+
+Required (depending on features):
 
 * `OPENSKY_CLIENT_ID`
 * `OPENSKY_CLIENT_SECRET`
@@ -170,15 +160,15 @@ npm run build
 
 # 📚 Documentation
 
-* Architecture → `docs/media/ARCHITECTURE.md`
-* API → `docs/media/API.md`
-* Replay model → `docs/media/REPLAY_MODEL.md`
-* Development → `docs/media/DEVELOPMENT.md`
+* Architecture → `docs/ARCHITECTURE.md`
+* API → `docs/API.md`
+* Replay model → `docs/REPLAY_MODEL.md`
+* Development → `docs/DEVELOPMENT.md`
 
 ---
 
 # ⚠️ Notes
 
-* Large datasets use Git LFS
+* Large datasets are handled via Git LFS
 * First load may take time due to Cesium assets
-* Some features require API keys but core system runs without them
+* Some features require API keys, but core system works without them
