@@ -1,9 +1,8 @@
-# 🌍 God's Eye
+# 🌍 Palantir in your pocket
 
 ![Hero](docs/media/hero.png)
 
-Palantir in your pocket:
-air, sea, satellites, cameras, buildings, and prediction markets.
+Air, sea, satellites, cameras, buildings, and prediction markets.
 
 All in one place.
 
