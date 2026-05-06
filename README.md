@@ -182,5 +182,3 @@ npm run build
 * Large datasets use Git LFS
 * First load may take time due to Cesium assets
 * Some features require API keys but core system runs without them
-
-```
