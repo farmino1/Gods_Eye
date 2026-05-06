@@ -1,0 +1,44 @@
+{
+  "name": "earth-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n client,api \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "vite --host 127.0.0.1 --clearScreen false",
+    "dev:server": "node --watch server/index.js",
+    "build": "vite build",
+    "lint": "eslint .",
+    "test": "node --test --test-isolation=none",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.4",
+    "axios": "^1.13.6",
+    "cesium": "^1.139.1",
+    "csv-parse": "^6.2.1",
+    "d3": "^7.9.0",
+    "h3-js": "^4.4.0",
+    "pbf": "^4.0.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "satellite.js": "^6.0.2",
+    "simple-statistics": "^7.8.9",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.27",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.0.1"
+  }
+}

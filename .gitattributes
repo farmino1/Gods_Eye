@@ -1,0 +1,9 @@
+* text=auto
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+# Prevent vendored large assets from being included in archive exports
+public/cesium/Assets/** export-ignore
+dist/** export-ignore
+cameras/cameras.json filter=lfs diff=lfs merge=lfs -text

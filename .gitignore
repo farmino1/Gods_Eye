@@ -1,0 +1,64 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+.cache/
+
+# Local env files (do not commit secrets)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Cesium and large vendor assets
+public/cesium/Assets/
+public/cesium/ThirdParty/
+public/cesium/Workers/
+dist/assets/
+
+# Large data files (move to data repo or use Git LFS)
+
+# Misc
+logs/
+*.log
+*.bak
+*.swp
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
